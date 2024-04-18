@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<title>Artisans and Contact</title>
+		<link rel="stylesheet" href="css/styles.css" >
+		<link rel="shortcut icon" href="images/favicon.svg" >
+		<link rel="preconnect" href="https://fonts.googleapis.com" >
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+			rel="stylesheet"
+		>
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+				<img
+					id="headerpic"
+					src="images/taylor_craftworks_transparent.png"
+					alt="Taylor Craftworks logo"
+				>
+			</a>
+			<nav>
+				<p><a href="index.html">Home and Products</a></p>
+				<p><a href="contactus.html">Artisans and Contact</a></p>
+				<p><a href="https://www.haystack-mtn.org/" target="_blank">Learn a Craft</a></p>
+			</nav>
+		</header>
+		<h1>Meet Our Artisans</h1>
+		<article>
+			<p>
+				At Taylor Craftworks, we welcome a wide range of crafts. Every month, we'd like to rotate
+				three different artisans for you to meet.
+			</p>
+		</article>
+		<article>
+			<h2>Artisans</h2>
+			<div class="card-container">
+				<div class="card" id="anna">
+					<a
+						href="https://unsplash.com/photos/a-woman-using-a-circular-saw-to-cut-a-piece-of-wood-maxl1X_RJBY"
+					>
+						<img class="img-shift" src="images/anna.jpg" alt="Anna Taylor woodworking" >
+					</a>
+					<h3>Anna Taylor</h3>
+					<p>
+						Granddaughter of Gracie and George Taylor, Anna has been
+						<strong>woodworking</strong> since she was 12 years old. Since her grandparents'
+						passing, she now runs Taylor Craftworks and frequently helps showcase local and upcoming
+						artisans' works.
+					</p>
+				</div>
+				<div class="card" id="ari">
+					<a
+						href="https://unsplash.com/photos/a-man-wearing-a-helmet-standing-next-to-a-machine-jquy4-lYwIY"
+					>
+						<img src="images/ari.jpg" alt="Ari Harris metalworking" >
+					</a>
+					<h3>Ari Harris</h3>
+					<p>
+						The newest addition to the Taylor Craftworks family is Ari, a passionate
+						<strong>metal</strong> artisan. They were initially inspired after seeing their father,
+						a former student of George Taylor, create different sculptures at home. Currently, they
+						most enjoy making sculptures of people.
+					</p>
+				</div>
+				<div class="card" id="tony">
+					<a
+						href="https://unsplash.com/photos/man-in-black-long-sleeve-shirt-holding-black-smartphone-pskRlw7Mo40"
+					>
+						<img src="images/tony.jpg" alt="Tony Hawk working with glass" >
+					</a>
+					<h3>Tony Hawk</h3>
+					<p>
+						A California native, Tony moved to the area in 2013 to get a change of pace and scenery.
+						He is a master of <strong>glass</strong>, being able to create small and intricate
+						trinkets. He can also create magnificently large sculptures, but after time he now
+						prefers to make cups and bowls and other practical (but beautiful) items.
+					</p>
+				</div>
+			</div>
+		</article>
+		<article>
+			<h2>Crafting Process</h2>
+			<p>
+				At Taylor Craftworks, we offer different workshops and materials for a wide variety of
+				crafts and artisans. The main crafts we've focused on are traditional woodworking,
+				metalworking, and glassblowing.
+			</p>
+			<p>
+				For woodworking, our artisans use locally sourced lumber and typically create their products
+				using traditional hand tools. When it comes to metalworking, we stick to many practices used
+				long ago such as hammering, inlaying, and wiredrawing. To decorate these works, we also
+				collaborate with local gemologists and other material sourcers. As for glasswork, our
+				artists still use traditional techniques such as by staining glass and making the glass
+				itself using materials like sand, soda, and lime.
+			</p>
+		</article>
+		<article>
+			<h2>Contact Us</h2>
+			<p>Want to know more? Please contact us below using the following form and/or information!</p>
+			<form action="contactus.html">
+				<div id="form-img-container">
+					<a
+						href="https://unsplash.com/photos/person-holding-pliers-near-adhesive-tape--e28RZcAJd0"
+					>
+						<img id="form-img" src="images/crafting.jpg" alt="Woodworking" >
+					</a>
+				</div>
+				<div id="form-input">
+					<div>
+						<label for="receiver">Choose a specific receiver: </label>
+						<select id="receiver" name="receiver">
+							<option value="store">Main Store</option>
+							<option value="anna">Anna Taylor</option>
+							<option value="ari">Ari Harris</option>
+							<option value="tony">Tony Hawk</option>
+						</select>
+					</div>
+					<label for="message">Enter your message:<span>*</span></label>
+					<textarea
+						id="message"
+						placeholder="Send in your thoughts, suggestions, concerns, etc."
+						required
+					></textarea>
+					<input type="submit" value="Submit" >
+				</div>
+			</form>
+			<div id="contact-container">
+				<div class="contact-info">
+					<img src="images/location.svg" alt="A location pin icon" >
+					<p class="normal-first-letter contact-detail">555 Greenwood Drive, Camden, Maine 04843</p>
+				</div>
+				<div class="contact-info">
+					<img src="images/email.svg" alt="An email icon" >
+					<p class="contact-detail">inbox@taylorcraftworks.org</p>
+				</div>
+				<div class="contact-info">
+					<img src="images/call.svg" alt="A telephone icon" >
+					<p class="contact-detail">(555) 555 - 5555</p>
+				</div>
+			</div>
+		</article>
+		<img class="bottom-img" src="images/taylor_craftworks.png" alt="Taylor Craftworks logo" >
+	</body>
+</html>
